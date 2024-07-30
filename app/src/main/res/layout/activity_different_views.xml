@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DifferentViewsActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <CheckBox
+               android:id="@+id/checkboxview"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+                android:layout_marginStart="39dp"
+              android:layout_marginTop="103dp"
+              android:layout_margin="10dp"
+              android:text="CheckBox" />
+
+            <TextView
+               android:id="@+id/checkboxtxtview"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:layout_marginTop="119dp"
+               android:layout_marginEnd="155dp"
+               android:layout_margin="10dp"
+               android:text="text view" />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ToggleButton
+            android:id="@+id/toggleButtonview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="off"
+            android:textOn="on"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="258dp"
+            android:layout_margin="10dp"
+            android:text="ToggleButton" />
+
+        <TextView
+          android:id="@+id/toggleviewtxtview"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:layout_marginTop="276dp"
+          android:layout_marginEnd="157dp"
+          android:layout_margin="10dp"
+          android:text="text view" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spinnerviewusingxml"
+                android:layout_width="150dp"
+                android:layout_height="64dp"
+                android:entries="@array/titles" />
+
+            <Spinner
+                android:id="@+id/spinnerviewusingjava"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/spinnertxtview"
+                android:layout_width="114dp"
+                android:layout_height="33dp"
+                android:text="text view" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

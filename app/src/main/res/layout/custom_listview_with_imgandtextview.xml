@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/customlayoutoflistviewwithimgandtxtview">
+
+    <ImageView
+        android:id="@+id/img1incustom"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/ironman" />
+
+    <TextView
+        android:id="@+id/txt1incustomlistview"
+        android:layout_width="99dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="14dp"
+        android:text="TextView" />
+</LinearLayout>

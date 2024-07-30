@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/customlayoutoflistviewwithimgand2txtview">
+
+    <ImageView
+        android:id="@+id/img2incustom"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/ironman" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt2incustomlistview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="14dp"
+        android:text="TextView1" />
+
+    <TextView
+        android:id="@+id/txt3incustomlistview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView2" />
+</LinearLayout>
+</LinearLayout>

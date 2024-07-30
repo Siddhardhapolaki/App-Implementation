@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StorageActivity2">
+
+    <EditText
+        android:id="@+id/enterkeytoretrive"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="664dp"
+        android:ems="10"
+        android:hint="Enter key to retrieve value"
+        android:inputType="text"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/SaveToFileId2"
+        android:layout_width="164dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="91dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Save to file"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:id="@+id/DataFromFileTxtId2"
+        android:layout_width="181dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="25dp"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Data from file"
+        android:typeface="serif"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="208dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="549dp"
+        android:text="Enter as key:value" />
+
+    <Button
+        android:id="@+id/tosharedPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="488dp"
+        android:text="Save to \nsharedPreferences " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="159dp"
+
+        android:layout_marginEnd="78dp"
+        android:text=" enter key above" />
+
+    <Button
+        android:id="@+id/fromsharedpreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="491dp"
+        android:text="from \nsharedPreferences" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tosharedPreferences"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="-121dp"
+        android:text="Enter as\n name,age,grade" />
+
+    <Button
+        android:id="@+id/tosqlitebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="325dp"
+        android:text="save to\n sqlite" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="128dp"
+        android:text="enter name to retrive" />
+
+    <Button
+        android:id="@+id/fromsqlitebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="345dp"
+        android:text="retrieve from\n sqlite" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="22dp"
+        android:text="Enter as:\n name:newage" />
+
+    <Button
+        android:id="@+id/updatesqliteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="350dp"
+        android:text="Update Age" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="418dp"
+        android:layout_marginEnd="256dp"
+        android:text="Enter data:\nid,name,age,course" />
+
+    <Button
+        android:id="@+id/sendtoOnlineDbButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="206dp"
+        android:text="send to OnlineDb" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="72dp"
+        android:text="Enter data:name" />
+
+    <Button
+        android:id="@+id/getfromOnlineDbButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="212dp"
+        android:text="get from Online Db " />
+
+
+</RelativeLayout>

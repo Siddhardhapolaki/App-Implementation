@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StorageActivity1"
+    tools:ignore="MissingDefaultResource">
+
+    <EditText
+        android:id="@+id/SaveToFileId1"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="120dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Save to file"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/DataFromFileTxtId1"
+        android:layout_width="171dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Data from file"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/internal_privateButton"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="180dp"
+        android:text="Internal private" />
+
+    <Button
+        android:id="@+id/frominternalprivateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="21dp"
+        android:text="From Internal Private" />
+
+    <Button
+        android:id="@+id/internalcacheButton"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="237dp"
+        android:text="Internal cache" />
+
+    <Button
+        android:id="@+id/frominternalcacheButton"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="21dp"
+        android:text="From Internal cache" />
+
+    <Button
+        android:id="@+id/externalcacheButton"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="290dp"
+        android:text="External cache" />
+
+    <Button
+        android:id="@+id/fromexternalcacheButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="19dp"
+        android:text="From External cache" />
+
+    <Button
+        android:id="@+id/externalprivateButton"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="331dp"
+        android:text="External Private" />
+
+    <Button
+        android:id="@+id/fromexternalprivateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="330dp"
+        android:text="From External private" />
+
+    <Button
+        android:id="@+id/externalpublicButton"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="278dp"
+        android:text="External public" />
+
+    <Button
+        android:id="@+id/fromexternalpublicButton"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="277dp"
+        android:text="From External public" />
+
+    <Button
+        android:id="@+id/more_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="82dp"
+        android:text="More" />
+
+
+</RelativeLayout>
