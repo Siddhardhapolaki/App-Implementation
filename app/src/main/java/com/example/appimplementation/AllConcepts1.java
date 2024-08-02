@@ -20,12 +20,18 @@ public class AllConcepts1 extends AppCompatActivity {
         Button customfontbut,textwatcherbut,alltypesviewssbut;
         Button listviewsbut;
         Button storagebutton;
+        Button toolbarButton;
+        Button menuintoolbar;
+
+
 
         customfontbut=findViewById(R.id.customfontbutton);
         textwatcherbut=findViewById(R.id.textwatcherbutton);
         alltypesviewssbut=findViewById(R.id.alltypesviewsbutton);
         listviewsbut=findViewById(R.id.listviewsbutton);
         storagebutton=findViewById(R.id.storagebutton);
+        toolbarButton=findViewById(R.id.toolBarbutton);
+        menuintoolbar=findViewById(R.id.menuintoolBarbutton);
 
 
 
@@ -73,5 +79,23 @@ public class AllConcepts1 extends AppCompatActivity {
               startActivity(new Intent(AllConcepts1.this, StorageActivity1.class));
           }
       });
+
+      toolbarButton.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+            startActivity(new Intent(AllConcepts1.this, ToolBarActivity1.class));
+          }
+      });
+
+
+      menuintoolbar.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+              startActivity(new Intent(AllConcepts1.this,MenuInToolBarActivity.class));
+          }
+      });
+
+
+
     }
 }

@@ -16,7 +16,7 @@ public class OnlineDataBase {
         this.context=context;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            this.con = DriverManager.getConnection("jdbc:mysql://ip_address:3306/First_data_base", "root", "Siddhardha@12345");
+            this.con = DriverManager.getConnection("jdbc:mysql://ip_address:3306/First_data_base", "root", "password");
         }catch (SQLException sql)
         {
             Log.d("1st exception", sql.getMessage());
