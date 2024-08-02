@@ -63,8 +63,31 @@
                     android:text="storage"
                     android:layout_margin="3dp"
                     />
+                <Button
+                    android:id="@+id/toolBarbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="tool bar"
+                    android:layout_margin="3dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/menuintoolBarbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Menu In tool bar"
+                    android:layout_margin="3dp"
+                    />
+
 
             </LinearLayout>
+
+
         </LinearLayout>
 
     </ScrollView>

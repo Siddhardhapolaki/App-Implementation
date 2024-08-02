@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- default view created with 3  dots  -->
+     <!-- if you want custom 3 dots image  do below process-->
+   <!--
+   process for default -adding items
+   process for geting custom three dots-
+             add custom 3 dots image as item and write all remaining items as nested to 3 dots image item
+
+             Note:
+             set showAsAction attribute to always for custom three dots then
+             it will shows on toolbar ,if you set showAsAction attribute to never or not set
+             again  default dots will seen
+      -->
+   <item
+       android:id="@+id/menu_book"
+       android:title="menu book"
+       app:showAsAction="always"
+       android:icon="@drawable/baseline_menu_book_24">
+
+       <menu >
+               <item
+               android:id="@+id/menu_group"
+               android:title="Group"
+                   app:showAsAction="never"
+               android:icon="@drawable/baseline_group_24"/>
+
+
+                <item
+               android:id="@+id/menu_settings"
+               android:title="Settings"
+                    app:showAsAction="never"
+               android:icon="@drawable/baseline_settings_24"/>
+
+       </menu>
+   </item>
+</menu>

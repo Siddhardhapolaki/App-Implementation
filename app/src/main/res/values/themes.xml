@@ -1,9 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.AppImplementation" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.AppImplementation" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <!--
+        1. make above parent to
+           Theme.MaterialComponents.DayNight                  default tool bar and action bar
+           Theme.MaterialComponents.DayNight.DarkActionBar   default tool bar and action bar,but in black color
+           Theme.MaterialComponents.DayNight.NoActionBar    no action bar will be shown in any activity in app
+
+        -->
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- <item name="colorPrimary">@color/black</item>  --> <!--it make both action bar and toolbar into specified color-->
     </style>
 
-    <style name="Theme.AppImplementation" parent="Base.Theme.AppImplementation" />
+    <style name="Theme.AppImplementation" parent="Base.Theme.AppImplementation" /> <!-- without this any activity in app is not showing any thing and looks in black-->
+
+    <!-- here we done one thing see that we declared parent for this is Base.Theme.AppImplementation
+     it is name of above mentioned style
+     and we declared in manifest about this theme to app (android:theme="@style/Theme.AppImplementation")
+     so it means we indirectly using above mentioned theme-->
+
+
+    <style name="this_theme_is_for_specified_activity" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>  <!-- this is extra style created and we need to apply this theme in specified activity in manifest -->
+
 </resources>

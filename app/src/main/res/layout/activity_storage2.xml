@@ -15,10 +15,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="112dp"
-        android:layout_marginBottom="664dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="613dp"
         android:ems="10"
         android:hint="Enter key to retrieve value"
         android:inputType="text"
@@ -61,18 +61,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginBottom="549dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="493dp"
         android:text="Enter as key:value" />
 
     <Button
         android:id="@+id/tosharedPreferences"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="158dp"
+        android:layout_height="73dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="488dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="414dp"
         android:text="Save to \nsharedPreferences " />
 
     <TextView
@@ -81,19 +81,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="159dp"
+        android:layout_marginTop="162dp"
 
         android:layout_marginEnd="78dp"
         android:text=" enter key above" />
 
     <Button
         android:id="@+id/fromsharedpreferences"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="191dp"
+        android:layout_height="74dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="491dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="410dp"
+
         android:text="from \nsharedPreferences" />
 
     <TextView
@@ -102,8 +103,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/tosharedPreferences"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="17dp"
-        android:layout_marginBottom="-121dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="-115dp"
         android:text="Enter as\n name,age,grade" />
 
     <Button
@@ -112,8 +113,8 @@
         android:layout_height="53dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="325dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="310dp"
         android:text="save to\n sqlite" />
 
     <TextView
@@ -122,8 +123,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="287dp"
-        android:layout_marginEnd="128dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="141dp"
         android:text="enter name to retrive" />
 
     <Button
@@ -134,8 +135,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="132dp"
         android:layout_marginTop="299dp"
-        android:layout_marginEnd="132dp"
-        android:layout_marginBottom="345dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="297dp"
         android:text="retrieve from\n sqlite" />
 
     <TextView
@@ -144,8 +145,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="290dp"
-        android:layout_marginEnd="22dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="38dp"
         android:text="Enter as:\n name:newage" />
 
     <Button
@@ -154,8 +155,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="350dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="306dp"
         android:text="Update Age" />
 
     <TextView
@@ -164,8 +165,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="418dp"
-        android:layout_marginEnd="256dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="257dp"
         android:text="Enter data:\nid,name,age,course" />
 
     <Button
@@ -174,8 +175,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="231dp"
-        android:layout_marginBottom="206dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="185dp"
         android:text="send to OnlineDb" />
 
     <TextView
@@ -184,18 +185,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="420dp"
-        android:layout_marginEnd="72dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="91dp"
         android:text="Enter data:name" />
 
     <Button
         android:id="@+id/getfromOnlineDbButton"
-        android:layout_width="wrap_content"
+        android:layout_width="189dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="212dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="185dp"
         android:text="get from Online Db " />
 
 
